@@ -131,6 +131,7 @@ function JournalForm(props) {
             <textarea name="text" ref={textRef} onChange={onChange} value={values.text} cols="30" rows="10" className={
                 classNames(
                     styles['input'],
+                    styles['textarea'],
                     { [styles['invalid']]: !isValid.text }
                 )
             }></textarea>
