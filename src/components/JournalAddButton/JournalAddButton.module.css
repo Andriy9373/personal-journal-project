@@ -1,0 +1,10 @@
+.journal-add-button {
+    padding: 10px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
